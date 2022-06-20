@@ -5,12 +5,12 @@ library(tidyr)
 
 ## download the UN votes from site ('https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LEJUQZ')
 
-load("C:/Users/inyak/OneDrive/Inaki backup Dec 14/blog/2022/UNVotes-1.RData")
+load("/UNVotes-1.RData")
 ## as completevotes
 
 
 #download the PolityV democratic scores from ('http://www.systemicpeace.org/inscrdata.html')
-polity <- read.xlsx("C:/Users/inyak/OneDrive/Inaki backup Dec 14/blog/2022/p5v2018.xlsx",
+polity <- read.xlsx("/p5v2018.xlsx",
                      sheet = "p5v2018", startRow = 1, colNames = TRUE)
 
 
@@ -76,8 +76,8 @@ Congo	Congo Brazzaville
 Congo - Brazzaville	Congo Brazzaville
 Congo - Kinshasa	Congo Kinshasa
 Costa Rica	Costa Rica
-Côte d'Ivoire	Cote D'Ivoire
-Côte D'Ivoire	Cote D'Ivoire
+CÃ´te d'Ivoire	Cote D'Ivoire
+CÃ´te D'Ivoire	Cote D'Ivoire
 Croatia	Croatia
 Cuba	Cuba
 Cyprus	Cyprus
@@ -199,7 +199,7 @@ Saint Lucia	Trinidad and Tobago
 Saint Vincent and the Grenadines	Trinidad and Tobago
 Samoa	Solomon Islands
 San Marino	Italy
-São Tomé & Príncipe	Cape Verde
+SÃ£o TomÃ© & PrÃ­ncipe	Cape Verde
 Sao Tome and Principe	Cape Verde
 Saudi Arabia	Saudi Arabia
 Senegal	Senegal
@@ -354,7 +354,7 @@ Colombia	y
 Comoros	y
 Congo	abst
 Costa Rica	y
-Côte D'Ivoire	y
+CÃ´te D'Ivoire	y
 Croatia	y
 Cuba	abst
 Cyprus	y
